@@ -1,0 +1,157 @@
+html,body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-size:62.5%;
+    box-sizing:border-box;
+/*    background-color:#5fcf80;*/
+    background-color:#4aa149;
+}
+
+
+nav{
+    width:100%;
+    height:5rem;
+    margin:0;
+    padding:0;
+    display:inline-block;
+    background-color:#FFFFFF;
+}
+
+
+
+section[id=menu_container]{
+    width:100%;
+    height:100%;
+    
+    margin:0;
+    padding:0;
+    
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;    
+}
+
+
+
+a{
+    margin:0;
+    padding:0;
+}
+
+
+a[id=menu_button]{
+    margin-right:1rem;
+    padding:0;
+    height:35%;
+    align-self:center;
+    /*why 35 percent? we are factoring margin which is 15. 1rem is 10*/
+}
+
+a[id=menu_button_text]{
+    
+    margin:0;
+    padding:0;
+    height:35%;
+    align-self: center;
+    text-decoration:none;
+}
+
+a[id=menu_school_name]{
+    margin:0;
+    margin-left:1rem;
+    paddging:0;
+    height:35%;
+    flex-grow:4;
+    align-self:center;
+}
+
+span[id=menu_school_name_text]{
+    margin:0;
+    padding:0;
+    font-size:2rem;
+    line-height:1.5rem;
+    color:#7B8B8E;
+}
+
+
+span[id=menu_icon]{
+    width:2.5rem;
+    height:.3rem;
+
+    display:block;
+    position:relative;
+    top:.7rem;
+    margin:0;
+    padding:0;
+    content:'';
+    background-color:#7B8B8E;
+    border-radius:.6rem;
+
+    
+}
+
+span[id=menu_icon]::before{
+    width:2.5rem;
+    height:.3rem;
+
+    position:absolute;
+    
+    top:-.7rem;
+    padding:0;
+
+    content:'';
+    background-color:inherit;
+    border-radius:.6rem;    
+}
+
+span[id=menu_icon]::after{
+    width:2.5rem;
+    height:.3rem;
+
+    position:absolute;
+    
+    top:.7rem;
+    padding:0;
+    
+    content:'';
+    background-color:inherit;
+    border-radius:.6rem;    
+}
+
+
+
+
+span[id=menu_text]{
+    margin:0;
+    padding:0;
+    font-size:2rem;
+    line-height:1.5rem;
+    color:#7B8B8E;
+}
+
+
+
+
+/*colour palate*/
+/*https://coolors.co/app/4aa149-faf0ca-f4d35e-ee964b-f95738*/
+/*https://coolors.co/app/08ad45-dde595-e0cd3e-e0923e-e0443e*/
+
+/*cream*/
+.cream{
+    color:#faf0ca;
+}
+
+.gold{
+    color:#F4D35E;
+}
+
+.orange{
+    color:#EE964B;
+}
+
+.red_orange{
+    color:#F95738;
+}
+
