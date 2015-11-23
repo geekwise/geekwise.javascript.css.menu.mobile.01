@@ -53,6 +53,29 @@ section[id=menu_container]{
 }
 
 
+svg{
+
+}
+
+text{
+    
+    font-size:3rem;
+    font-weight:600;
+    font-family: 'Open Sans', sans-serif;
+
+    
+    x:0;
+    y:50rem;
+
+    stroke:black;
+    stroke-width:10rem;
+
+ }
+
+
+
+
+
 a[id=menu_school_name]{
     
     margin-left:1rem;
